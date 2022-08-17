@@ -2,7 +2,7 @@
 A paralled version of ParEGO algorithm for expensive multi-objective problems (MOPs).
 
 ## Introduction
- This repository contains Matlab implementation of the algorithm framework for adaptive batch-ParEGO in the research paper [An Adaptive Batch Bayesian Optimization Approach for Expensive Multi-Objective Optimization](https://www.sciencedirect.com/science/article/pii/S0020025522009057) (**Accepted by [Information Sciences 2022](https://www.sciencedirect.com/journal/information-sciences)**).
+ This repository contains Matlab implementation of the algorithm framework for adaptive batch-ParEGO in the research paper [An Adaptive Batch Bayesian Optimization Approach for Expensive Multi-Objective Problems](https://www.sciencedirect.com/science/article/pii/S0020025522009057) (**Accepted by [Information Sciences 2022](https://www.sciencedirect.com/journal/information-sciences)**).
 
 ## Algorithm Preparation
 We use [PlatEMO-V2.9.0](https://github.com/BIMK/PlatEMO/releases/tag/PlatEMO_v2.9.0), an evolutionary multi-objective optimization platform, to implement all the related experiments. Details on how to use PlatEMO can be found in [manual.pdf](https://github.com/BIMK/PlatEMO/blob/master/PlatEMO/manual.pdf). Before starting our methods, we recommend to  carefully study how to use the PlatEMO platform.
