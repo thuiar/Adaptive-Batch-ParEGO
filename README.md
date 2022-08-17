@@ -31,8 +31,8 @@ Benchmark problems contain six three-objective benchmark problems taken from the
 |    Problems      |                   M| D                           | Characteristics
 | :---------: | :-----------------------------------------------------: | :------------------------------------------------------------------------------------: | :---------------: |
 [DTLZ](https://www.cs.bham.ac.uk/~jdk/parego/) | 3 |  10  |  DTLZ11, DTLZ2, DTLZ3,DTLZ5, DTLZ6, DTLZ7|
-[WFG](https://ieeexplore.ieee.org/document/5353656) | 3 | 10  | WFG1-7
-[UF](https://ojs.aaai.org/index.php/AAAI/article/view/10664) | 2 | 10| UF1-4       |   
+[WFG](https://ieeexplore.ieee.org/document/5353656) | 3 | 10  | WFG1-4
+[UF](https://ojs.aaai.org/index.php/AAAI/article/view/10664) | 2 | 10| UF1-7       |   
 [Hyper-parameter Tuning](http://www2.imm.dtu.dk/pubdb/edoc/imm6284.pdf) | 2 |  5 |Objectives include error and prediction time. Hyper-parameters include the number of hidden layers, number of neurons per hidden layer, learning rate, dropout rate and L2 regularization weight penalties
 
 ## Results
