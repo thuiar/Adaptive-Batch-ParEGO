@@ -23,8 +23,8 @@ The baseline methods in Adaptive Batch-ParEGO include ParEGO [[1]](#parego), MOE
 [MOEA/D-EGO](https://ieeexplore.ieee.org/document/5353656) | Multi-objective, Batch |        IEEE Transactions on Evolutionary Computation 2010         | 
 [ReMO](https://ojs.aaai.org/index.php/AAAI/article/view/10664) | Multi-objective, Sequential |        AAAI 2017         |   
 [Multi-LineBO](http://proceedings.mlr.press/v97/kirschner19a/kirschner19a.pdf) | Multi-objective, Sequential |        ICML 2019         |
-[SparseEA](https://ieeexplore.ieee.org/document/8720021) | Multi-objective, Large-scale |IEEE Transactions on Evolutionary Computation 2019 |  
-[MOEA/PSL](https://ieeexplore.ieee.org/document/9047876) | Multi-objective, Large-scale |IEEE Transactions on Cybernetics 2020 | 
+[SparseEA](https://ieeexplore.ieee.org/document/8720021) | Multi-objective, Large-scale |IEEE Transactions on Evolutionary Computation 2020 |  
+[MOEA/PSL](https://ieeexplore.ieee.org/document/9047876) | Multi-objective, Large-scale |IEEE Transactions on Cybernetics 2021 | 
 
 ## Benchmark Problems
 Benchmark problems contain six three-objective benchmark problems taken from the DTLZ test suite [[7]](#dtlz), seven two-objective benchmark problems from the UF test suite [[8]](#uf), nine three-objective benchmark problems from WFG test suite [[9]](#wfg) and a real-world hyper-parameter tuning of neural network task [[10]](#nn). The source code of hyper-parameter tuning task of neural networks can be found [here](https://github.com/rasmusbergpalm/DeepLearnToolbox).
