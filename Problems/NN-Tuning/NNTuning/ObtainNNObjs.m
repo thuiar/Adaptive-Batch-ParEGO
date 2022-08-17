@@ -11,8 +11,8 @@ if ~isfield(options,'encoding');options.encoding = 'real';end
 if ~isfield(options,'NumObjs');options.NumObjs = 2;end
 if ~isfield(options,'NumVars');options.NumVars = 5;end
 if ~isfield(options,'popsize');options.popsize = 100;end
-if ~isfield(options,'xmin');options.xmin = [1,50,0, -10.*ones(1,options.NumVars-3)];end
-if ~isfield(options,'xmax');options.xmax = [3,500,0.9,zeros(1,options.NumVars-3)];end
+if ~isfield(options,'xmin');options.xmin = [1,50, -10.*ones(1,options.NumVars-2)];end
+if ~isfield(options,'xmax');options.xmax = [3,500,zeros(1,options.NumVars-2)];end
 
 
 problem = options.problem;

@@ -8,8 +8,8 @@ function nn = nnsetup(X)
 % log_learning_rate and logL2_weight_regularization, respectively
 
 %  X range:
-%   options.xmin = [1 50 -10 -10 -10]
-%   options.xmax = [3 500  0  0 0]
+%   options.xmin = [1 50  -10 -10 ]
+%   options.xmax = [3 500  0  0 ]
 
 
 %% NN hyper-paramters by happywhy

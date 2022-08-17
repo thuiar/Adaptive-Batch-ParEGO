@@ -1,16 +1,14 @@
 function [er,predict_time] = EvaluateModelError(X,plot)
 % This function is used to obtain the training error of NN
 
-% INPUT: X is a size of 10*1 vector whose elements are the number of
+% INPUT: X is a size of 5*1 vector whose elements are the number of
 % hidden_layers, number of neurous per hidden layer, dropout,
-% log_learning_rate, logL1_weight_regularization and
-% logL2_weight_regularization, num_epoche,batch size, 
-% the output parameter, momnetum, activation_function,respectively
+% log_learning_rate and logL2_weight_regularization, respectively
 %  
 
 %  X range:
-%  xmin = [1  50    0     -10  -10  3  800    0   0.4   0]
-%  xmax = [3  500  0.9  0     0      6  1200  2   0.6   1]
+%   options.xmin = [1 50  -10 -10 -10]
+%   options.xmax = [3 500  0  0  0]
 
 %----------------------------Reference -----------------------------------
 % Palm R B. Prediction as a candidate for learning deep hierarchical models of 

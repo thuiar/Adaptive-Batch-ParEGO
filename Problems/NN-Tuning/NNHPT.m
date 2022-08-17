@@ -21,18 +21,18 @@ classdef NNHPT < PROBLEM
 %--------------------------------------------------------------------------
 
 %  X range:
-%  xmin = [1 50  0   -10 -10 -10 3 800 0 0.4]
-%  xmax = [3 500 0.9 0  0  0 6 1200 2 0.6]
+%   xmin = [1 50  0   -10 -10]
+%   xmax = [3 500 0.9 0  0 ]
 
     methods
         %% Initialization
         function obj = NNHPT()
             obj.Global.M = 2;
             if isempty(obj.Global.D)
-                obj.Global.D = 10;
+                obj.Global.D = 5;
             end
-            obj.Global.lower    = [1,50,0, -10.*ones(1,obj.Global.D-8),1, 800, 0, 0.4, 0];
-            obj.Global.upper    = [3,500,0.9,zeros(1,obj.Global.D-8),3, 1500, 2, 0.6,1];
+            obj.Global.lower    = [1,50, -10.*ones(1,obj.Global.D-2)];
+            obj.Global.upper    = [3,500,zeros(1,obj.Global.D-2)];
             obj.Global.encoding = 'real';
         end
         %% Calculate objective values
